@@ -1,0 +1,88 @@
+﻿@model List<ToDoApp.Models.TodoItem>
+
+@{
+    ViewData["Title"] = "To-Do List";
+    var showHidden = Context.Request.Query["showHidden"].ToString() == "true";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+
+<h1 class="header-title">To-Do List</h1>
+
+<form method="get" asp-action="Index" class="filter-form">
+    <label class="filter-label">Filter by Category:</label>
+    <input type="text" name="categoryFilter" value="@Context.Request.Query["categoryFilter"]" class="filter-input" />
+
+    <label class="filter-label">Filter by Priority:</label>
+    <select name="priorityFilter" class="filter-select">
+        <option value="">None</option>
+        <option value="High" @(Context.Request.Query["priorityFilter"] == "High" ? "selected" : "")>High</option>
+        <option value="Medium" @(Context.Request.Query["priorityFilter"] == "Medium" ? "selected" : "")>Medium</option>
+        <option value="Low" @(Context.Request.Query["priorityFilter"] == "Low" ? "selected" : "")>Low</option>
+    </select>
+
+    <label class="filter-label">Sort by:</label>
+    <select name="sortBy" class="filter-select">
+        <option value="">None</option>
+        <option value="category" @(Context.Request.Query["sortBy"] == "category" ? "selected" : "")>Category</option>
+        <option value="priority" @(Context.Request.Query["sortBy"] == "priority" ? "selected" : "")>Priority</option>
+    </select>
+
+    <label class="filter-label">Show Hidden:</label>
+    <input type="checkbox" name="showHidden" value="true" @(showHidden ? "checked" : "") class="filter-checkbox" />
+
+    <button type="submit" class="filter-button">Apply</button>
+</form>
+
+<table class="todo-table">
+    <thead>
+        <tr>
+            <th class="table-header">Done</th>
+            <th class="table-header">Title</th>
+            <th class="table-header">Category</th>
+            <th class="table-header">Priority</th>
+            <th class="table-header">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="todo-item @(item.IsCompleted ? "completed" : "") @(item.IsHidden ? "hidden" : "")">
+                <td class="todo-cell">
+                    <form method="post" action="/ToDo/ToggleComplete" class="todo-form">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="todo-button">@((item.IsCompleted) ? "Undo" : "Done")</button>
+                    </form>
+                </td>
+                <td class="todo-cell">@item.Title</td>
+                <td class="todo-cell">@item.Category</td>
+                <td class="todo-cell">@item.Priority</td>
+                <td class="todo-cell">
+                    <form method="post" action="/ToDo/ToggleHide" class="todo-form">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="todo-button">@((item.IsHidden) ? "Show" : "Hide")</button>
+                    </form>
+
+                    <form method="post" action="/ToDo/Delete" class="todo-form">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" onclick="return confirm('Delete this item?');" class="todo-button">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2 class="add-item-title">Add New Item</h2>
+<form method="post" action="/Todo/Add" class="add-item-form">
+    <input type="text" name="title" placeholder="Title" required class="add-item-input" />
+    <input type="text" name="category" placeholder="Category" required class="add-item-input" />
+    <select name="priority" required class="add-item-select">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <button type="submit" class="add-item-button">Add</button>
+</form>

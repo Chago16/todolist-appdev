@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "n0qOiRuFb2evj8u9JjFW9WhiZEInyzZrgmivVAd6Ksw=",
+  "Source": "ToDoApp",
+  "BasePath": "_content/ToDoApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoApp\\wwwroot",
+      "Source": "ToDoApp",
+      "ContentRoot": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "BasePath": "_content/ToDoApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoApp.styles.css",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ToDoApp",
+      "RelativePath": "ToDoApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "q39e6u5xhi",
+      "Integrity": "lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoApp.styles.css"
+    },
+    {
+      "Identity": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoApp.bundle.scp.css",
+      "SourceId": "ToDoApp",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ToDoApp",
+      "RelativePath": "ToDoApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "q39e6u5xhi",
+      "Integrity": "lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoApp.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\wwwroot\\css\\styles.css",
+      "SourceId": "ToDoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\wwwroot\\",
+      "BasePath": "_content/ToDoApp",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2rstih07a0",
+      "Integrity": "zizF8Bh49A8EVyIZ/Oc5M0LOXuuQRM/MCKkwpJRi8c8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.2rstih07a0.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zizF8Bh49A8EVyIZ/Oc5M0LOXuuQRM/MCKkwpJRi8c8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 04:09:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rstih07a0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zizF8Bh49A8EVyIZ/Oc5M0LOXuuQRM/MCKkwpJRi8c8="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zizF8Bh49A8EVyIZ/Oc5M0LOXuuQRM/MCKkwpJRi8c8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 04:09:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zizF8Bh49A8EVyIZ/Oc5M0LOXuuQRM/MCKkwpJRi8c8="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoApp.bundle.scp.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:14:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoApp.q39e6u5xhi.bundle.scp.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:14:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q39e6u5xhi"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoApp.q39e6u5xhi.styles.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:14:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q39e6u5xhi"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoApp.styles.css",
+      "AssetFile": "D:\\Coding Time\\C#\\ToDoApp\\ToDoApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 02:14:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lrPNreJvgLE5iZUrt1unda/GoSgKCyE/w9PdrL/XnOk="
+        }
+      ]
+    }
+  ]
+}
